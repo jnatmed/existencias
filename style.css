@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.table-container {
+    text-align: center;
+}
+
+.calendar-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar-table, .calendar-table th, .calendar-table td {
+    border: 1px solid black;
+}
+
+.calendar-title {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.calendar-title h1 {
+    text-transform: lowercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.calendar-title::first-letter {
+    text-transform: uppercase;
+}
+
+.calendar-days {
+    text-transform: uppercase;
+}
+
+.calendar-days th {
+    font-weight: bold;
+}
+
+td {
+    height: 80px;
+    width: 150px;
+}
