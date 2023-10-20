@@ -1,0 +1,26 @@
+COMO RENDIR UN FONDO ROTATORIO EN EFECTIVO. 
+caja unidad a 
+    fondo rotatorio a rendir
+concepto: fr 1231
+saldo: 29000
+
+fondo rotatorio a rendir a 
+    caja unidad
+concepto: factura 12345
+saldo: 20000
+
+fondo rotatorio a rendir a 
+    caja unidad
+concepto: devolucion a dga
+saldo: 9000
+
+bienes de consumo rt a
+    bienes de consumo a rendir
+concepto: fr 1231
+saldo: 20000
+
+bienes consumidos rt a 
+    bienes de consumo a rendir rt
+concepto: fr 1231
+saldo: 20000
+
